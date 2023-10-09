@@ -103,9 +103,37 @@ Bir Composition Örneği
     print("-----");
   }
 ```
+Kullanımlar için alt kısımdaki linklerden kodlara ulaşabilirsiniz.
+* [Değişkenler ve sabitler](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/01_degiskenler_sabitler/degiskenler_sabitler_gun_1.dart)
+* [Standart programlama](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/02_standart_programlama.dart)
+ 
+  * [Nesne tabanlı programlama](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/02_standart_programlama.dart/nesne_tabanli_programlama)
+   * [Fonksiyonlar](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/02_standart_programlama.dart/nesne_tabanli_programlama/fonksyionlar.dart)
+   * [Static kullanımı](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/02_standart_programlama.dart/nesne_tabanli_programlama/static_kullanimi.dart)
+   * [ENUM - ENUMERATION kullanımı](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/02_standart_programlama.dart/nesne_tabanli_programlama/enumeration_kullanimi.dart)
+  * [Döngü Kullanımı](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/02_standart_programlama.dart/dongu_kullanimi.dart)
+  * [if kullanımı](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/02_standart_programlama.dart/if_kullanimi.dart)
+  * [Switch kullanımı](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/02_standart_programlama.dart/switch_kullanimi.dart)
+* [Composition](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/03_composition)
+  * [Kullanımı](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/03_composition/composition_kullanimi.dart)
+* [Inheritence](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/04_kalitim)
+  * [Kalıtım Kullanımı](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/04_kalitim/kalitim_kullanimi.dart)
+* [Override](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/05_override_kullanimi)
+* [Interface](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/06_interface_kullanimi)
+* [Collections](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/07_collections)
+  * [HashMap](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/07_collections/hashmap_kullanimi.dart)
+  * [HashSet](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/07_collections/hashset_kullanimi.dart)  
+  * [list](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/07_collections/list_kullanimi.dart)
+* [ileri dart](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/08_ileri_dart)
+  * [Asenkron](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/08_ileri_dart/asenkron_kullanimi.dart)
+  * [Hata Yakalama](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/blob/main/lib/dartcode/08_ileri_dart/hata_yakalama.dart)
+* [Ödevler](https://github.com/kayamekin/flutter_bootcamp_kasimadalan/tree/main/lib/dartcode/odevler)
+  
 
 
-Downcasting ve upcasting olması için kalıtım ilişkisi olmalıdır.
+---
+###Abstract
+* Downcasting ve upcasting olması için kalıtım ilişkisi olmalıdır.
 * Class yapısında kullanılabilir.
 * Bir sınıf birden fazla interface alabilir.
 * **implements** ile eklenirler.
