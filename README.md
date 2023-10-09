@@ -33,3 +33,81 @@ nasıl değişkenler yazdırılır çağırılır kullanılır
 
 4. **Hata yakalama:** Dart dilinde Hata yakalama işlemleri nasıl yapılır ,
 * Öğrenildi.
+
+---
+**Değişken kullanımı** 
+```
+  int urun_id = 3416;
+  String urun_adi = "Kol Saati";
+  String urun_tedarikci = "Rolex";
+  int urun_adet = 100;
+  double urun_fiyat = 149.99;
+```
+```
+  var ogrenciAdi = "Ahmet";
+  var ogrenciYas = 20;
+  var ogrenciBoy = 1.80;
+  var ogrenciBasHarf = "A";
+  var ogrenciDevamEdiyorMu = true;
+```
+**Sabit kullanımı**
+```
+final int number = 123;
+const int number2 = 123;
+// number = 333; // hatalı kullanım
+// number2 = 333; // hatalı kullanım
+```
+
+**Tip dönüşümü**
+
+```
+int i = 10;
+double d = 123.44;
+
+int sonuc1 = d.toInt();
+double sonuc2 = i.toDouble();
+
+print(sonuc1);
+print(sonuc2);
+```
+  **önemli notlar**
+  * String içerisinde sayı yoksa metinsel değerler dönüşüme giremez.
+  * Double bir metini direkt olarak int veri türüne dönüştürmek istersek bunu gerçekleştiremeyiz.
+  * double sayı değerlerine sahip olan bir metini integer veri türüne dönüştürmek için
+  * ilk önce metinsel değeri double türe dönüştürebiliriz
+  * ve bu türü daha sonra toInt() yardımı ile int veri türüne dönüştürebiliriz.
+  * benzer dönüşümü int türüne sahip metinsel değer içinde yapabiliriz.
+
+
+```
+// üst kısımdaki not burası için geçerlidir
+String text1 = "25";
+int sonuc1 = int.parse(text1);
+----
+// String text2 = "yeni bir metin";
+// int sonuc2 = int.parse(text2);
+----
+String text3 = "51.42";
+double sonuc3 = double.parse(text3);
+```
+
+---
+Bir Composition Örneği
+```
+  for (var film in [f1, f2]) {
+    print("Film Adi: ${film.film_ad}");
+    print("Film ID: ${film.film_id}");
+    print("Film Yili: ${film.film_yil}");
+    print("Film Kategori Adi: ${film.kategori.kategori_ad}");
+    print("Film Yönetmen Adi: ${film.yonetmenler.yonetmen_ad}");
+    print("-----");
+  }
+```
+
+
+Downcasting ve upcasting olması için kalıtım ilişkisi olmalıdır.
+* Class yapısında kullanılabilir.
+* Bir sınıf birden fazla interface alabilir.
+* **implements** ile eklenirler.
+* hazır taslaklar gibi düşünebiliriz.
+* Interface'ler sınıflara özellik katar.
